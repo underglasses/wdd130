@@ -51,9 +51,10 @@ section p{
 }
 
 ul{
-    margin-left: 20px;
+    margin-left: 10px 20px;
 }
 
 footer {
    font-size: .90rem;
 }
+
