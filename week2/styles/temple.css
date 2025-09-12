@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid ;
 }
 
 img {
@@ -37,7 +37,7 @@ img {
     box-shadow: 0 0 30px #333;
 }
 
-section{    
+section{
     margin: 20px 0;
     border: 1px solid rgb(0, 0, 0 / 10%);
     padding: 10px;
@@ -50,6 +50,10 @@ section p{
     line-height: 1.5;
 }
 
-footer{
+ul{
+    margin-left: 20px;
+}
+
+footer {
    font-size: .90rem;
 }
