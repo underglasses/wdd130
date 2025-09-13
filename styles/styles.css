@@ -1,13 +1,20 @@
 /* styles.css */
+main {
+    max-width: fit-content;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
 
 nav a {
     color: white;
     padding: 10px;
     display: block;
-    background-color: steelblue;
 }
 
-h1, h2{    color: steelblue;}
+h1 {    color: steelblue;}
 
 main img {
     width: 150px;
@@ -32,6 +39,8 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    border: 1px solid gray;
+    padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
