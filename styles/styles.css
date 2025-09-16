@@ -1,6 +1,8 @@
 /* styles.css */
-main {
-    max-width: fit-content;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 nav {
@@ -10,40 +12,65 @@ nav {
 
 nav a {
     color: white;
-    padding: 10px;
+    padding: 5px;
     display: block;
 }
 
-h1 {    color: steelblue;}
-
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+h1 {
+    color: steelblue;
+    padding: 10px 10px;
 }
 
-p {     padding: 0;}
+main img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid steelblue;
+    padding: 5px;
+    box-shadow: 0 0 30px gray;
+    margin-left:75%;
+}
 
-aside {
-    width: 20rem;
-    margin: 1em;
-    border: 1px rgba(0, 0, 0, 0.2); /* 1️⃣  why use rgba instead of hex here*/
-    padding: 3em;
+main p  {
+    margin: -190px 30% 60px 10px;
+    text-align: justify
+}
+
+/* Class Selectors */
+aside.box {
+    width: 300px;
+    height: 110px;
+    margin-top: 2rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: justify;
+    padding: 0.5em;
+}
+
+ul{ padding-left: 20px;}
+
+aside {
+    width:auto;
+    height:280px;
+    padding: 2em;
+    border: 1px rgba(0, 0, 0, 0.2);
+    background-color: #eee;
+    color: #333;
+    position: relative;
+    margin: 10px;
 }   
 
+aside p{
+    text-align: left;
+    margin: -180px 30%  0px 5px;
+}
+
 aside img {
-    width: 200px;
-    height: auto;
     border: 1px solid gray;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin-left: 75%;
 }
-
 
 footer {
 margin-top: 15px;
