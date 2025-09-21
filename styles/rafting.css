@@ -1,11 +1,4 @@
-:root {
---primary-color: #055a05; /* forest green */
---secondary-color: #f4a261; /* warm sand */
---accent1-color: #264653; /* dark slate blue */
---accent2-color: #e9c46a; /* light golden yellow */
---heading-font: "Times New Roman", "Georgia", serif;
---body-font: Arial, Helvetica, sans-serif;
-}
+
 
 header {
 background-color: var(#055a05);
@@ -65,4 +58,24 @@ color: #fff; /* white text - make sure there is enough contrast with*/
 .hero article img {
 float: right;
 width: 125px;
+}
+
+footer {
+padding-top: 10px;
+background-color: gainsboro;
+border-top: 1px solid #000;
+text-align: center;
+text-decoration: solid;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+:root {
+--primary-color: #055a05; /* forest green */
+--secondary-color: #f4a261; /* warm sand */
+--accent1-color: #264653; /* dark slate blue */
+--accent2-color: #e9c46a; /* light golden yellow */
+--heading-font: "Times New Roman", "Georgia", serif;
+--body-font: Arial, Helvetica, sans-serif;
 }
