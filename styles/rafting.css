@@ -1,27 +1,20 @@
-
-
-header {
-background-color: var(#055a05);
-color: var(#eee);
-}
-
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 
+nav {
+  background-color: steelblue;
+  padding: 10px;
+  color: white;
+  padding: 5px;
+  display: block;
+}
+
 .logo {
-  width: 150px;
-}
-
-body {
-color: var(gray);
-}
-
-header, main, footer {
-width: 840px;
-margin: 0 auto;
+  width: 35.5px;
+  float: left;
 }
 
 h1, h2 {
@@ -30,7 +23,7 @@ color: var(--primary-color);
 }
 
 .nav-about a {
-  color: #333;
+  color: white;
   text-decoration: none;
   padding: 10px;
 }
@@ -76,14 +69,22 @@ width: 125px;
 }
 
 footer {
-padding-top: 10px;
+width: 100%;
 background-color: gainsboro;
 border-top: 1px solid #000;
 text-align: center;
-text-decoration: solid;
 position: fixed;
 bottom: 0;
-width: 100%;
+}
+
+footer nav {
+  margin-top: -50px;
+  float: right;
+}
+
+footer img{
+  width: 20px;
+  height: 20px;
 }
 
 :root {
