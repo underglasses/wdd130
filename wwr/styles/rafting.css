@@ -33,10 +33,12 @@ width: 840px;
 margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
 padding: 10px;
 font-family: var(--heading-font);
 color: var(--primary-color);
+background-color:#e9c46a;
+position: absolute;
 }
 
 .socialmedia a {
@@ -47,7 +49,6 @@ text-decoration: none;
 width: 90%;
 margin: 0 auto;
 display: block;
-position:relative;
 }
 
 footer {
