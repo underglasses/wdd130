@@ -35,7 +35,6 @@ text-align: right;
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
-  font-family: var(--body-font);
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
