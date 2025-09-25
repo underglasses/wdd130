@@ -72,7 +72,7 @@ article p {
 width: 450px;
 padding: 1.2rem;
 margin: -160px 0 30px 80px;
-border: -30px -20px;
+border: 30px -20px;
 background-color: var(--secondary-color);
 position: absolute;
 }
@@ -83,7 +83,6 @@ background-color: var(--primary-color);
 border-top: 1px solid var(--accent1-color);
 text-align: center;
 color: var(--secondary-color);
-position: realtive;
 bottom: 0;
 padding: 1rem;
 }
