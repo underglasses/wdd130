@@ -124,3 +124,21 @@ footer img {
   width: 30px;
   height: 30px;
 }
+
+section {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.employees {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section img {
+  width: 100px;
+}
