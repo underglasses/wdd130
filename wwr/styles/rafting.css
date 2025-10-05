@@ -136,6 +136,13 @@ footer img {
   margin-top: 1rem;
 }
 
+form {
+  background-color: var(--accent2-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
 .contact-form {
   flex: 1;
   display: flex;
