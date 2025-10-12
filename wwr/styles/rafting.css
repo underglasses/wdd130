@@ -92,10 +92,14 @@ section h2 {
   margin-bottom: 0.5rem;
 }
 
-section p,
-section ul {
+section p{
   background-color: var(--accent2-color);
   padding: 1rem;
+  border-radius: 4px;
+}
+section ul {
+  background-color: var(--accent2-color);
+  padding: 1rem 0px 1rem 50px;
   border-radius: 4px;
 }
 
@@ -125,6 +129,7 @@ footer img {
   height: 30px;
 }
 
+/* === CONTACT US FORM === */
 .info {
   text-align: center;
 }
@@ -170,6 +175,7 @@ section{
   padding: 1rem;
 }
 
+/* === CONTACT US .EMPLOYEE === */
 .employee-grid {
   display: flex;
   gap: 1rem;
@@ -188,4 +194,80 @@ section{
 .employee-grid img {
   width: 100px;
   border-radius: 50%;
+}
+
+/* === HOME BANNER === */
+.banner h1 {
+  text-align: center;
+  font-family: var(--heading-font);
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.banner img {
+  width: 100%;
+  max-width: full;
+  display: block;
+  margin: 1rem auto;
+  align-items: center;
+  padding: 1px;
+  box-shadow: 0 0 10px #333;
+}
+
+.banner button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 0.75rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin: 50px 0px 0px 400px;
+  box-shadow: 0 0 10px #333;
+  position: absolute;
+}
+
+/* === HOME SECTIONS === */
+section {
+  margin: 1.5rem auto;
+  max-width: 800px;
+}
+
+section h2 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+section p{
+  background-color: var(--accent2-color);
+  padding: 1rem;
+  border-radius: 4px;
+}
+section ul {
+  background-color: var(--accent2-color);
+  padding: 1rem 0px 1rem 50px;
+  border-radius: 4px;
+}
+
+/* === HOME .OPTIONS === */
+.options-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.options-grid figure {
+  text-align: center;
+  width: 30%;
+  padding: 1rem;
+  box-shadow:  0 0 8px rgba(0,0,0,0.1);
+}
+
+.options-grid img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
