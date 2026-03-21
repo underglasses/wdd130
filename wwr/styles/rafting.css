@@ -30,7 +30,7 @@ h2 {
   text-align: center;
 }
 
-/* === HEADER === */
+/* === H E A D E R === */
 header {
   background-color: var(--primary-color);
   padding: 1rem 2rem;
@@ -66,10 +66,11 @@ main {
   text-decoration: underline;
 }
 
-/* === HERO === */
+/* === H E R O === */
 
 .hero {
   position: relative;
+  /* Needed for absolute positioning inside */
 }
 
 .hero article {
@@ -77,13 +78,10 @@ main {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-
   width: 80%;
   padding: 1rem;
-
   background-color: var(--accent2-color);
   box-shadow: 0 0 30px gray;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,62 +97,62 @@ main {
 .hero article img {
   width: 150px;
   height: auto;
-  align-self: flex-end;
+}
 
-  /* === SECTIONS === */
-  section {
-    margin: 1.5rem auto;
-    max-width: 800px;
-  }
+/* === S E C T I O N S === */
+section {
+  margin: 1.5rem auto;
+  max-width: 800px;
+}
 
-  section h2 {
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
-  }
+section h2 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
 
-  section p {
-    background-color: var(--accent2-color);
-    padding: 1rem;
-    border-radius: 4px;
-  }
+section p {
+  background-color: var(--accent2-color);
+  padding: 1rem;
+  border-radius: 4px;
+}
 
-  section ul {
-    background-color: var(--accent2-color);
-    padding: 1rem 0px 1rem 50px;
-    border-radius: 4px;
-  }
+section ul {
+  background-color: var(--accent2-color);
+  padding: 1rem 0px 1rem 50px;
+  border-radius: 4px;
+}
 
-  /* === FOOTER === */
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: var(--primary-color);
-  }
+/* === F O O T E R === */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
 
-  footer p {
-    margin: 0 auto;
-    text-align: center;
-    flex: 1;
-    color: white;
-  }
+footer p {
+  margin: 0 auto;
+  text-align: center;
+  flex: 1;
+  color: white;
+}
 
-  .social-media {
-    display: flex;
-    gap: 1rem;
-  }
+.social-media {
+  display: flex;
+  gap: 1rem;
+}
 
-  .social-media a {
-    display: flex;
-    /* Align image and text side by side */
-    align-items: center;
-    text-decoration: none;
-    color: white;
-  }
+.social-media a {
+  display: flex;
+  /* Align image and text side by side */
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
 
-  .social-media img {
-    width: 24px;
-    height: 24px;
-    margin-right: 0.5rem;
-  }
+.social-media img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
