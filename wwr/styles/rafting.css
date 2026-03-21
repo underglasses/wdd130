@@ -1,6 +1,6 @@
 :root {
   --primary-color: #055a05;
-  --secondary-color: #f4a261;
+  --secondary-color: #ffffff;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", "Georgia", serif;
@@ -16,7 +16,7 @@
 /* === B O D Y ===*/
 body {
   font-family: var(--body-font);
-  background-color: #f9f9f9;
+  background-color: beige;
   color: var(--accent1-color);
   max-width: 100%;
   padding: 1vh;
@@ -26,8 +26,10 @@ body {
 }
 
 h1,
-h2 {
+h2,
+header {
   text-align: center;
+  font-family: var(--heading-font);
 }
 
 /* === H E A D E R === */
@@ -57,7 +59,7 @@ main {
 }
 
 .main-nav a {
-  color: #fff;
+  color: var(--secondary-color);
   text-decoration: underline;
   font-weight: 500;
 }
@@ -70,7 +72,16 @@ main {
 
 .hero {
   position: relative;
-  /* Needed for absolute positioning inside */
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent2-color);
 }
 
 .hero article {
@@ -85,6 +96,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  float: right;
 }
 
 .hero article p {
@@ -135,7 +147,7 @@ footer p {
   margin: 0 auto;
   text-align: center;
   flex: 1;
-  color: white;
+  color: var(--secondary-color);
 }
 
 .social-media {
@@ -145,10 +157,9 @@ footer p {
 
 .social-media a {
   display: flex;
-  /* Align image and text side by side */
   align-items: center;
   text-decoration: none;
-  color: white;
+  color: var(--secondary-color);
 }
 
 .social-media img {
