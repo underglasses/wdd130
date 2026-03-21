@@ -19,10 +19,12 @@ nav a {
 main {
     padding: 2rem;
     max-width: fit-content;
+    margin-bottom: 12%;
 }
 
 main p {
-    margin: 10px 0px 10px 30px;
+    margin: 20px 0px 0px 50px;
+
 }
 
 main img {
@@ -32,7 +34,8 @@ main img {
     padding: 5px;
     box-shadow: 0 0 30px gray;
     position: relative;
-    margin-left: 42%;
+    float: left;
+    margin-left: 10px;
 }
 
 h1 {
