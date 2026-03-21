@@ -150,19 +150,19 @@ footer p {
   color: var(--secondary-color);
 }
 
-.social-media {
+.socialmedia {
   display: flex;
   gap: 1rem;
 }
 
-.social-media a {
+.socialmedia a {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: var(--secondary-color);
 }
 
-.social-media img {
+.socialmedia img {
   width: 24px;
   height: 24px;
   margin-right: 0.5rem;
