@@ -53,6 +53,10 @@ header nav a {
 }
 
 /* === HERO === */
+.hero {
+  position: relative;
+}
+
 .hero h1 {
   text-align: center;
   font-family: var(--heading-font);
@@ -60,6 +64,7 @@ header nav a {
   color: var(--primary-color);
   padding: 0.5rem;
   margin-top: 1rem;
+  position: absolute;
 }
 
 .hero img {
@@ -74,11 +79,21 @@ header nav a {
   padding: 1rem;
   margin: 1rem auto;
   max-width: 800px;
+  position: absolute;
+}
+
+.hero article img {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  float: right;
 }
 
 .hero article h2 {
   margin-bottom: 0.5rem;
-  color: var(--primary-color);
+  color: rgb(5 90 5);
+  background-color: rgb(244 162 97);
 }
 
 /* === SECTIONS === */
@@ -92,11 +107,12 @@ section h2 {
   margin-bottom: 0.5rem;
 }
 
-section p{
+section p {
   background-color: var(--accent2-color);
   padding: 1rem;
   border-radius: 4px;
 }
+
 section ul {
   background-color: var(--accent2-color);
   padding: 1rem 0px 1rem 50px;
@@ -145,7 +161,7 @@ form {
   background-color: var(--accent2-color);
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form {
@@ -167,10 +183,10 @@ button {
 
 .map iframe {
   border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
-section{
+section {
   text-align: center;
   padding: 1rem;
 }
@@ -239,11 +255,12 @@ section h2 {
   margin-bottom: 0.5rem;
 }
 
-section p{
+section p {
   background-color: var(--accent2-color);
   padding: 1rem;
   border-radius: 4px;
 }
+
 section ul {
   background-color: var(--accent2-color);
   padding: 1rem 0px 1rem 50px;
@@ -263,13 +280,13 @@ section ul {
   text-align: center;
   width: 30%;
   padding: 1rem;
-  box-shadow:  0 0 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .options-grid img {
   width: 200px;
   border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .banne-buttom button {
