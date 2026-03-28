@@ -93,11 +93,10 @@ main {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
-  padding: 1rem;
+  width: 75%;
+  padding: 1dvh;
   background-color: var(--accent2-color);
   box-shadow: 0 0 30px gray;
-
   justify-content: space-between;
   align-items: center;
 }
@@ -105,14 +104,14 @@ main {
 .hero article p {
   text-align: justify;
   color: var(--accent1-color);
-  padding: 1%;
+  margin: 2%;
 }
 
 .hero article img {
-  width: 150px;
+  width: 200px;
   height: auto;
   float: right;
-  margin: 1%;
+  margin: 2%;
 }
 
 /* === S E C T I O N S === */
