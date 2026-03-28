@@ -36,6 +36,7 @@ header {
 header {
   background-color: var(--primary-color);
   padding: 1rem 2rem;
+  display: grid;
 }
 
 .header-container {
@@ -115,26 +116,74 @@ main {
 }
 
 /* === S E C T I O N S === */
-section {
-  margin: 1.5rem auto;
-  max-width: 800px;
-}
-
-section h2 {
+/* === H I S T O R Y --- S E C T I O N === */
+.history h2 {
+  text-align: center;
+  margin-bottom: 1rem;
   color: var(--primary-color);
-  margin-bottom: 0.5rem;
 }
 
-section p {
+.history-box {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
   background-color: var(--accent2-color);
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: 6px;
+  align-items: center;
 }
 
-section ul {
-  background-color: var(--accent2-color);
-  padding: 1rem 0px 1rem 50px;
+.history-box p {
+  text-align: justify;
+}
+
+.history-box figure {
+  text-align: center;
+}
+
+.history-box img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* === I M A G E S --- S E C T I O N === */
+.images h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.images-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.images-row figure {
+  position: relative;
+}
+
+.images-row img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 4px;
+  box-shadow: 0 0 10px gray;
+}
+
+.images-row figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--accent2-color);
+  opacity: 0.9;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  border-radius: 0 0 4px 4px;
 }
 
 /* === F O O T E R === */
