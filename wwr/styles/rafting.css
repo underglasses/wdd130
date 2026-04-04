@@ -226,6 +226,67 @@ footer p {
 }
 
 /* === C O N T A C T.H T M L === */
+/* === FORM INTERACTIVITY === */
+
+/* Radio buttons */
+input[type="radio"] {
+  accent-color: var(--primary-color);
+  cursor: pointer;
+}
+
+input[type="radio"]:hover,
+input[type="radio"]:focus {
+  outline: 2px solid var(--accent2-color);
+  outline-offset: 2px;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  accent-color: var(--primary-color);
+  cursor: pointer;
+}
+
+input[type="checkbox"]:hover,
+input[type="checkbox"]:focus {
+  outline: 2px solid var(--accent2-color);
+  outline-offset: 2px;
+}
+
+/* Text inputs and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 2px solid var(--accent1-color);
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-family: var(--body-font);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 6px var(--accent2-color);
+  outline: none;
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--accent1-color);
+  transform: scale(1.05);
+}
+
 .info {
   text-align: center;
 }
