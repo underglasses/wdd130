@@ -69,6 +69,41 @@ main {
   text-decoration: underline;
 }
 
+/* === F O O T E R    G E N E R A L === */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+
+footer p {
+  margin: 0 auto;
+  text-align: center;
+  flex: 1;
+  color: var(--secondary-color);
+}
+
+.socialmedia {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialmedia a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.socialmedia img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+/* === A B O U T. H T M L === */
 /* === H E R O === */
 
 .hero {
@@ -190,36 +225,69 @@ main {
   border-radius: 0 0 4px 4px;
 }
 
-/* === F O O T E R === */
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: var(--primary-color);
-}
-
-footer p {
-  margin: 0 auto;
+/* === C O N T A C T.H T M L === */
+.info {
   text-align: center;
-  flex: 1;
-  color: var(--secondary-color);
 }
 
-.socialmedia {
+.contact-container {
   display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+form {
+  background-color: var(--accent2-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
 
-.socialmedia a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: var(--secondary-color);
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
 }
 
-.socialmedia img {
-  width: 24px;
-  height: 24px;
-  margin-right: 0.5rem;
+.map iframe {
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* === CONTACT US .EMPLOYEE === */
+.employee-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.employee-grid figure {
+  text-align: center;
+  width: 30%;
+  padding: 1rem;
+  background-color: var(--accent2-color);
+}
+
+.employee-grid img {
+  width: 100px;
+  border-radius: 50%;
 }
