@@ -352,3 +352,60 @@ section {
   width: 100px;
   border-radius: 50%;
 }
+
+/* === HOME SECTIONS === */
+section {
+  margin: 1.5rem auto;
+  max-width: 800px;
+}
+
+section h2 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+section p {
+  background-color: var(--accent2-color);
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+section ul {
+  background-color: var(--accent2-color);
+  padding: 1rem 0px 1rem 50px;
+  border-radius: 4px;
+}
+
+/* === HOME .OPTIONS === */
+.options-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.options-grid figure {
+  text-align: center;
+  width: 30%;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.options-grid img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.banne-buttom button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 0.75rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin: 10px 0px 0px 400px;
+  box-shadow: 0 0 10px #333;
+  position: absolute;
+}
