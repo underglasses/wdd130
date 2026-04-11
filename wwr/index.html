@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <title>UpStream - White Water Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
+
 <body>
     <header>
         <div class="header-container">
@@ -22,45 +24,57 @@
     </header>
 
     <main>
-        <div class="banner">
-            <h1>About us - Upstream</h1>
-            <div id="submit">
+        <div class="hero">
+            <h1>Upstream</h1>
+            <img src="images/banner.jpg" alt="font">
+            <div id="submit" class="submit">
                 <a href="/wwr/trips.html"><button type="submit">Book Now!</button></a>
             </div>
-            <article>
-                <figure><img src="images/banner.jpg" alt="banner"></figure>
-            </article>
         </div>
 
         <section class="options">
             <div class="options-grid">
-                <figure><img src="images/river.avif" alt="Rivers"><figcaption><a href="/wwr/trips.html"><button type="submit">Rivers</button></a></figcaption></figure>
-                <figure><img src="images/mountain.avif" alt="Mountains"><figcaption><a href="/wwr/trips.html"><button type="submit">Mountains</button></a></figcaption></figure>
-                <figure><img src="images/beach.avif" alt="Beaches"><figcaption><a href="/wwr/trips.html"><button type="submit">Beaches</button></a></figcaption></figure>
+                <figure><img src="images/river.avif" alt="Rivers">
+                    <figcaption><a href="/wwr/trips.html"><button type="submit">Rivers</button></a>
+                    </figcaption>
+                </figure>
+                <figure><img src="images/mountain.avif" alt="Mountains">
+                    <figcaption><a href="/wwr/trips.html"><button
+                              type="submit">Mountains</button></a></figcaption>
+                </figure>
+                <figure><img src="images/beach.avif" alt="Beaches">
+                    <figcaption><a href="/wwr/trips.html"><button type="submit">Beaches</button></a>
+                    </figcaption>
+                </figure>
             </div>
             <div class="contact-container">
-            <form class="contact-form">
-                <h2>Newsletter Sign up</h2>
-                <div id="name">
-                    <label for="fullname">Name:</label>
-                    <input type="text" id="fullname" name="fullname" required>
-                </div>
-                <div id="email">
-                    <label for="useremail">Email:</label>
-                    <input type="email" id="useremail" name="useremail" required>
-                </div>
-                <fieldset id="options">
-                    <legend>Message Purpose:</legend>
-                    <label><input type="radio" name="inquiry_type" value="general" required> General Inquiry</label><br>
-                    <label><input type="radio" name="inquiry_type" value="reservation" required> Reservation Question</label><br>
-                    <label><input type="radio" name="inquiry_type" value="suggestion" required> Website Suggestion</label>
-                </fieldset>
-                <div id="check"><label><input type="checkbox" name="subscribe" value="newsletter" checked> Please, Subscribe me to the monthly newsletter</label></div>
-                <div id="submit">
-                    <button type="submit">Get in Touch!</button>
-                </div>
-            </form>
-        </div>
+                <form class="contact-form">
+                    <h2>Newsletter Sign up</h2>
+                    <div id="name">
+                        <label for="fullname">Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div id="email">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail" required>
+                    </div>
+                    <fieldset id="options">
+                        <legend>Message Purpose:</legend>
+                        <label><input type="radio" name="inquiry_type" value="general" required>
+                            General Inquiry</label><br>
+                        <label><input type="radio" name="inquiry_type" value="reservation" required>
+                            Reservation Question</label><br>
+                        <label><input type="radio" name="inquiry_type" value="suggestion" required>
+                            Website Suggestion</label>
+                    </fieldset>
+                    <div id="check"><label><input type="checkbox" name="subscribe"
+                              value="newsletter" checked> Please, Subscribe me to the monthly
+                            newsletter</label></div>
+                    <div id="submit">
+                        <button type="submit">Get in Touch!</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 
@@ -79,4 +93,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
